@@ -41,9 +41,9 @@ app.use('/api/address', addressRoute)
 app.get("/",(req,res)=>{
     res.send("<h1>Welcome to the Server</h1>")
 })
-app.listen(3000,'localhost',()=>{
-    console.log(`Your servere started at http://localhost:3000`)
-})
-// app.listen(port,()=>{
-//     console.log(`Your servere started.`)
+// app.listen(3000,'localhost',()=>{
+//     console.log(`Your servere started at http://localhost:3000`)
 // })
+app.listen(port,()=>{
+    console.log(`Your servere started.`)
+})
